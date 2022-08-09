@@ -93,7 +93,7 @@ p {
     text-align: center;
     padding-top: 100px;
 
-    background: #31344e url("images/intro.png") center no-repeat;
+    background: #31344e url("img/intro-bg.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -199,7 +199,7 @@ p {
 
 .works__item {
     width: 25%;
-    height: 245px;
+    height: 260px;
 
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
