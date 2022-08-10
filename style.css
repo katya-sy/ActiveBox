@@ -425,3 +425,30 @@ p {
     color: #2d3033;
     text-transform: uppercase;
 }
+
+
+/* Footer */
+
+.footer {
+    padding: 70px 0;
+
+    background-color: #3a3e64;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block {
+    width: 33.33333%;
+
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
