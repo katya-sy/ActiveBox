@@ -315,6 +315,21 @@ p {
     display: flex;
 }
 
+.social--footer {
+    justify-content: center;
+}
+
+.social--footer .social__item {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+.social--footer .social__icon {
+    fill: #fff;
+}
+
 .social__item {
     display: flex;
     justify-content: center;
@@ -447,8 +462,17 @@ p {
 }
 
 .footer__title {
+    margin-bottom: 10px;
+
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+}
+
+.footer__address {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
 }
